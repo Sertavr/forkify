@@ -4,10 +4,9 @@
   "description": "Recipe application",
   "license": "ISC",
   "author": "Serg",
-  "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist --public-url ./"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.2",
