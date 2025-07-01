@@ -12,7 +12,6 @@ import { async } from 'regenerator-runtime';
 import resultsView from './views/resultsView.js';
 
 
-
 const controlRecipes = async function () {
   try {
     const hash = window.location.hash.slice(1);
