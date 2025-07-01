@@ -5,12 +5,12 @@ import searchView from './views/searchView.js';
 import bookmarksView from './views/bookmarksView.js';
 import paginationView from './views/paginationView.js';
 import addRecipeView from './views/addRecipeView.js';
-
-import regeneratorRuntime from 'regenerator-runtime/runtime';
-console.log(typeof regeneratorRuntime);
-
+import './node_modules/regenerator-runtime/runtime.js';
+//import 'core-js/stable';
+//import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 import resultsView from './views/resultsView.js';
+
 
 
 const controlRecipes = async function () {
