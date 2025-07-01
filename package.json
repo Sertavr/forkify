@@ -19,5 +19,10 @@
     "core-js": "^3.43.0",
     "mathjs": "^14.4.0",
     "regenerator-runtime": "^0.14.1"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ]
 }
