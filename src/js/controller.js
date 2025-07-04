@@ -7,8 +7,8 @@ import paginationView from './views/paginationView.js';
 import addRecipeView from './views/addRecipeView.js';
 
 import  '../../node_modules/core-js/stable';
-import '../../node_modules/regenerator-runtime/runtime.js';
-//import 'regenerator-runtime/runtime.js';
+//import '../../node_modules/regenerator-runtime/runtime.js';
+import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 import resultsView from './views/resultsView.js';
 
